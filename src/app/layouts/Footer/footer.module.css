@@ -1,0 +1,15 @@
+.footer {
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+}
+.paragraph{
+    color: white;
+    margin-right: 5px;
+}
+.span{
+    margin-left: 10px;
+    width: 200px;
+}
