@@ -1,4 +1,4 @@
-import ButtonTab from "@/components/ButtonTab/ButtonTab";
+// import ButtonTab from "@/components/ButtonTab/ButtonTab";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <div>Carousel</div>
         <h1 className={styles.home__header}>Welcome to Pini Movies</h1>
         <h2 className={styles.home__secondary}>Discover and watch</h2>
-        <ButtonTab />
+        {/* <ButtonTab /> */}
       </div>
       {/* <DisplayMovies movies={[]}/> */}
     </main>
