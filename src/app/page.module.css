@@ -3,6 +3,20 @@
 }
 
 .hero {
-  height: calc(100vh - 100px);
+  height: calc(100dvh - 80px);
   background: red;
+}
+
+.home__header {
+  font-size: var(--heading-primary);
+  font-weight: 700;
+  color: var(--text-white);
+  text-align: center;
+  margin-top: 4rem;
+}
+.home__secondary {
+  font-size: var(--heading-secondary);
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
 }
