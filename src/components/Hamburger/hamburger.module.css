@@ -1,0 +1,71 @@
+.hamburgerOverlay {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+
+}
+
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 6rem;
+    cursor: pointer;
+}
+
+.hamburger__handleBars {
+    position: relative;
+    height: 4px;
+    width: 5rem;
+    display: inline-block;
+    background-color: var(--primary-color);
+}
+
+.hamburger__handleBars::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+        width: 5rem;
+    background-color: var(--primary-color);
+    left: 0;
+    top:1.5rem;
+    transition: all 0.2s;
+}
+
+.hamburger__handleBars::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 5rem;
+    background-color: var(--primary-color);
+    left: 0;
+    top:-1.5rem;
+    transition: all 0.2s;
+}
+
+.hamburger__handleBarsOpen {
+    background-color: transparent;
+}
+
+.hamburger__handleBarsOpen::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 5rem;
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.hamburger__handleBarsOpen::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 5rem;
+    top: 0;
+    transform: rotate(-135deg);
+}

@@ -1,0 +1,19 @@
+.buttonContainer {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 0.3s;
+  outline: transparent;
+}
+
+.buttonContainerDisabled {
+  opacity: 0.5;
+}

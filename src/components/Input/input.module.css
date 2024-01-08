@@ -1,0 +1,11 @@
+.input {
+  width: 18rem;
+  height: 2.5rem;
+  padding: 1.5rem;
+  margin: 0 1rem;
+  font-size: 1.3rem;
+  border: 3px solid var(--primary-color);
+}
+.input:focus {
+  outline: none;
+}

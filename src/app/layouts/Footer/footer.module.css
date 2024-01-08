@@ -5,11 +5,8 @@
     align-items: center;
     padding: 5px;
 }
-.paragraph{
-    color: white;
+
+.footer__text{
+  
     margin-right: 5px;
-}
-.span{
-    margin-left: 10px;
-    width: 200px;
 }

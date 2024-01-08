@@ -1,0 +1,8 @@
+.container {
+  flex: 1;
+}
+
+.hero {
+  height: calc(100vh - 100px);
+  background: red;
+}

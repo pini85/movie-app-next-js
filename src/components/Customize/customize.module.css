@@ -1,0 +1,10 @@
+.container {
+  cursor: pointer;
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin: 0 2rem;
+  transition: all 0.5s;
+}
+.container:hover {
+  transform: rotate(180deg) scale(1.3);
+}
