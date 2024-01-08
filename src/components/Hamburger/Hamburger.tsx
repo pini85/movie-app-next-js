@@ -3,9 +3,8 @@ import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import clsx from "clsx";
-import styles from "./Hamburger.module.css";
+import styles from "./hamburger.module.css";
 import HamburgerNavigation from "../HamburgerNavigation/HamburgerNavigation";
-import { myAction, myOtherAction } from "@/actions/myAction";
 
 const Hamburger = () => {
   const pathName = usePathname();
