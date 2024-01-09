@@ -1,5 +1,5 @@
 export interface ButtonTabProps {
-  label: string;
-  onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
-  active?: boolean;
+  children: React.ReactNode;
+  isActive?: boolean;
+  callBack: () => void;
 }

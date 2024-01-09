@@ -4,7 +4,7 @@
 
 .hero {
   height: calc(100dvh - 80px);
-  background: red;
+  /* background: red; */
 }
 
 .home__header {

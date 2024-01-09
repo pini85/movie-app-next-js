@@ -355,6 +355,20 @@ textarea {
   /* 2 */
 }
 
+button {
+  background: none; /* Removes default background */
+  color: inherit; /* Inherits the color from its parent */
+  border: none; /* Removes border */
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
+  font: inherit; /* Inherits font properties */
+  cursor: pointer; /* Keeps the pointer cursor */
+  outline: inherit; /* Handles the focus outline */
+  -webkit-appearance: none; /* Removes default styling in WebKit browsers */
+  -moz-appearance: none; /* Removes default styling in Firefox */
+  appearance: none; /* Removes default styling */
+}
+
 /* Interactive
    ========================================================================== */
 
